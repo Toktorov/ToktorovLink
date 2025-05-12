@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import ParticlesBackground from '@/components/ParticlesBackground';
 import LinksList from '@/components/LinksList';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Toktorov Links',
@@ -18,13 +18,13 @@ export default function Home() {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Toktorov</h1>
           <p className="text-lg opacity-80 mb-4">Welcome to my links collection</p>
 
-          <Image 
+          {/* <Image 
             src="/profile.jpg" 
             alt="Toktorov" 
             width={112} // 28 * 4 (for pixel density)
             height={112} // 28 * 4 (for pixel density)
             className="w-28 h-28 rounded-full mx-auto mb-6 border-2 border-white shadow-lg"
-          />
+          /> */}
         </div>
 
         <LinksList />
