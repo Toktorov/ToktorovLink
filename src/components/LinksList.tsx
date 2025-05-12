@@ -18,13 +18,14 @@ export default function LinksList() {
 
   const links: LinkItem[] = [
     { title: 'My personal site (Soon)', url: 'https://toktorov.com', icon: 'fa-solid fa-clock' },
-    { title: 'Pomodoro Timer', url: 'https://beefocus.su/', icon: 'fa-solid fa-hourglass-start' },
+    { title: 'Pomodoro Timer (BeeFocus)', url: 'https://beefocus.su/', icon: 'fa-solid fa-hourglass-start' },
     { title: 'Telegram Channel', url: 'https://t.me/toktorov_one', icon: 'fa-brands fa-telegram' },
     { title: 'YouTube Channel', url: 'https://www.youtube.com/@toktorov_one', icon: 'fa-brands fa-youtube' },
-    { title: 'LinkedIn', url: 'https://www.linkedin.com/in/toktorov/', icon: 'fa-brands fa-linkedin' },
+    { title: 'TikTok Account', url: 'https://www.tiktok.com/@codex_kg', icon: 'fa-brands fa-tiktok' },
+    { title: 'LinkedIn Profile', url: 'https://www.linkedin.com/in/toktorov/', icon: 'fa-brands fa-linkedin' },
     { title: 'GitHub Account', url: 'https://github.com/Toktorov', icon: 'fa-brands fa-github' },
     { 
-      title: 'Contact With Me', 
+      title: 'Contact With Me (only on business)', 
       url: 'https://t.me/bigbeesu', 
       icon: 'fa-solid fa-message', 
       description: "I just don't do any training and there are no vacancies"

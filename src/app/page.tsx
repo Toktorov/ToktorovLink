@@ -30,7 +30,7 @@ export default function Home() {
         <LinksList />
 
         <footer className="mt-12 text-center opacity-70 text-sm">
-          <p>&copy; {new Date().getFullYear()} Toktorov. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Toktorov Kurmanbek. All rights reserved.</p>
         </footer>
       </main>
     </div>
